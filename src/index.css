@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+* {
+    padding: 0;
+    border: 0;
+    font-family: 'Asap', sans-serif;
+}
+
+.login-signin-card {
+    max-width: 35rem;
+    background: linear-gradient(45deg, #ECE9E6, #FFFFFF);
+}
+
+.add-todo-card {
+    max-width: 50rem;
+    background: linear-gradient(45deg, #ECE9E6, #FFFFFF);
+}
+
+.edit-todo-modal {
+    background: linear-gradient(45deg, #ECE9E6, #FFFFFF);
+}
+
+.inline-button {
+    background-color: transparent;
+}
+
+.sign-out-button {
+    color: #ffff;
+    background-color: transparent;
+    padding: 0.5rem 0;
+}
+
+.background-design {
+    background: url("https://wallpapersmug.com/download/3840x2400/4d7d03/light-colors-geometric-pattern-abstract.jpg");
+    height: 92.48927038626vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.card-design {
+    white-space: pre-line;
+    background: linear-gradient(45deg, #ECE9E6, #FFFFFF);
+}
+
+.btn-design {
+    background: linear-gradient(45deg, #1F2833, #0B0C10);
+}
+
+.delete-icon, .edit-icon {
+    background-color: transparent;
+}
