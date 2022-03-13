@@ -71,7 +71,7 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+  
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mytodos" element={<Todo />} />
@@ -79,6 +79,12 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signin" element={<Signin />} />
       </Routes>
+
+      <footer className="text-center text-lg-start bg-dark text-white">  
+        <h6 className="text-center p-4">
+          Created by <a className="text-reset fw-normal" href="mailto: sathvik.marni@gmail.com">sathvik Marni</a>
+        </h6>
+      </footer>
     </div>
   );
 }
