@@ -81,7 +81,7 @@ function App() {
       </Routes>
 
       <footer className="text-center text-lg-start bg-dark text-white">  
-        <h6 className="text-center p-4">
+        <h6 className="text-center p-4 m-0">
           Created by <a className="text-reset fw-normal" href="mailto: sathvik.marni@gmail.com">sathvik Marni</a>
         </h6>
       </footer>
